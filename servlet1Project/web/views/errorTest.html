@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>sendRedirect() 사용하기</title>
+<style>
+	#login{
+		width : 200px;
+		height: 100px;
+		background : yellow;
+	}
+</style>
+</head>
+<body>
+	<h1>sendRedirect() 확인하기</h1>
+	<div id=login>
+		<form action="/sp1/test4.do" method="post">
+			<table>
+				<tr>
+					<td>ID : </td>
+					<td><input type="text" name="userid" id="" /></td>
+				</tr>
+				<tr>
+					<td>PW : </td>
+					<td><input type="password" name="userpw" id="" /></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button type="submit">로그인</button>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<button type="reset">입력 취소</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<a href="/sp1/index.html">메인으로</a>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>개인 취향 테스트(post)</title>
+</head>
+<body>
+	<h1>개인 취향 테스트(post)</h1>
+	<p>당신의 선호 색상과 동물, 음식을 선택하세요</p>
+	
+	<form action="/sp2/testPerson4.biz" method="post">
+		<ul style="list-style:none; line-height:200%;">
+			<li>이름 : <input type="text" name="name" id="" size="5" /></li>
+			<li>
+				좋아하는 색상 : <br>
+				<input type="radio" name="color" id="red" value="빨강" /> 빨강
+				<input type="radio" name="color" id="brown" value="갈색" /> 갈색 
+				<input type="radio" name="color" id="blue" value="파랑" /> 파랑
+				<input type="radio" name="color" id="yellow" value="노랑" /> 노랑
+			</li>
+			<li
+				>좋아하는 동물 : <br>
+				<select name="animal" id="">
+					<option value="판다">판다</option>
+					<option value="고양이">고양이</option>
+					<option value="매">매</option>
+					<option value="강아지">강아지</option>
+				</select>
+			</li>
+			<li>
+				좋아하는 음식(모두 고르시오) : <br>
+				<input type="checkbox" name="food" id="fodd1" value="연어" />연어
+				<input type="checkbox" name="food" id="fodd2" value="김치볶음밥" />김치볶음밥
+				<input type="checkbox" name="food" id="food3" value="시카고피자" />시카고피자
+				<input type="checkbox" name="food" id="food4" value="우동" />우동
+				<input type="checkbox" name="food" id="food5" value="회덮밥" />회덮밥
+			</li>
+			<li>
+				<br>
+				<input type="submit" value="확인" /> &nbsp;&nbsp;&nbsp;
+				<input type="reset" value="취소" />
+			</li>
+		</ul>
+	</form>
+</body>
+</html>
